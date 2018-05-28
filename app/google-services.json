@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "79788024547",
+    "firebase_url": "https://filtr-75957.firebaseio.com",
+    "project_id": "filtr-75957",
+    "storage_bucket": "filtr-75957.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79788024547:android:d4f263a1ad222cd6",
+        "android_client_info": {
+          "package_name": "com.bignerdranch.android.filtr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79788024547-edatusd6018u0jbom5bfu1h9mvt22ica.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bignerdranch.android.filtr",
+            "certificate_hash": "db3088ca9527c8f1a0c1392f0b6423134c2274f4"
+          }
+        },
+        {
+          "client_id": "79788024547-26tjc1sgj9q3lf5ufm453m2qacogtpop.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "79788024547-26tjc1sgj9q3lf5ufm453m2qacogtpop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuYzKf-szOomMReLTbwZo0GdUsvbC9_TY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79788024547-26tjc1sgj9q3lf5ufm453m2qacogtpop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
