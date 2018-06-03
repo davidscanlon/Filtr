@@ -5,13 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
-    private Button signUpButton;
+    private Button signUpButton, signInButton;
+    private EditText email, password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
