@@ -12,7 +12,7 @@ import android.widget.EditText;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-public class MainActivity extends AppCompatActivity implements SettingsClient {
+public class MainActivity extends AppCompatActivity  {
 
     private FirebaseAuth mAuth;
     private Button signUpButton, signInButton;
