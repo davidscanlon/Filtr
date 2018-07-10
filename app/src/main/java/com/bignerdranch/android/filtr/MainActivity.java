@@ -1,6 +1,9 @@
 package com.bignerdranch.android.filtr;
 
+import android.content.Context;
 import android.content.Intent;
+import android.location.LocationManager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +12,7 @@ import android.widget.EditText;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements SettingsClient {
 
     private FirebaseAuth mAuth;
     private Button signUpButton, signInButton;
@@ -18,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sign_in);
+        setContentView(R.layout.activity_main);
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -30,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+
 
 
 
